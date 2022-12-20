@@ -1,0 +1,117 @@
+/*Color used in project
+ * #7c43bd
+ * #4A148C
+ * #12005e
+ * #1a1f25
+ * #c5c6c8
+ 
+ */
+
+
+ :root{
+     --mainColor: #0072d8;
+ }
+
+ .sideManu{
+    -fx-background-radius:  0px 0px 0px 0px; 
+}
+
+.white{
+    -fx-background-color: #fff;
+    
+}
+.transparent{
+    -fx-background-color: transparent;
+    
+}
+.darkWhite{
+    -fx-background-color:#ebebeb;
+}
+.text{
+    
+    -fx-font-family: Arial, Helvetica, sans-serif;
+    
+}
+.logInTextField{
+    -fx-border-width: 0px 0px 1px 0px;
+    -fx-border-color: black;
+    -fx-text-fill: black;
+    -fx-background-color: transparent;
+    -fx-font-family: Arial, Helvetica, sans-serif;
+    -fx-font-size: 16px;
+    -fx-font-style: normal;
+
+}
+.scroll-pane{
+    -fx-background: transperant;
+    
+}
+
+.sideManuItem{
+    /* -fx-background-color: #7c43bd; */
+    
+}
+.sideManuItemHover:hover{
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-border-color: #81b0f8;
+    -fx-box-shadow: none;
+}
+.itemHover:hover{
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 1), 5.0, 0.0, 0.0, 0.0);
+    
+}
+
+.ManuItem{
+    -fx-background-radius: 10px;
+    -fx-box-shadow: none;
+}
+
+.mainBlueColor{
+
+    -fx-background-color: #0072d8;
+}
+.darkBlueColor{
+
+    -fx-background-color:#0048a6;
+}
+
+.lightBlueColor{
+
+    -fx-background-color: #5fa0ff;
+}
+
+
+
+.textField{
+    -fx-background-color: transparent;
+    
+
+}
+.searchBox{
+    -fx-border-width: 2px;
+    -fx-border-radius: 50px;
+    -fx-border-color: #81b0f8;
+    -fx-box-shadow: none;
+}
+
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 1), 5.0, 0.0, 0.0, 0.0);
+}
+
+.mainManuItem{
+    -fx-background-color: #fff;
+    -fx-background-radius: 15px;
+
+}
+
+.signUpTextField{
+    -fx-background-color: transparent;
+    -fx-border-width: 0px 0px 2px 0px;
+    -fx-border-color: #0072d8;
+}
+
+.checkOutButtons{
+    -fx-background-radius: 30px;
+    
+}

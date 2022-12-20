@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane prefHeight="564.0" prefWidth="740.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <left>
+      <AnchorPane prefWidth="370.0" styleClass="darkBlueColor" stylesheets="@../Style/Style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="124.0" layoutY="255.0" prefHeight="55.0" prefWidth="123.0" style="-fx-font-size: 44;" styleClass="text" stylesheets="@../Style/Style.css" text="Gram" textFill="WHITE">
+               <font>
+                  <Font name="DejaVu Serif Condensed Bold Italic" size="44.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </left>
+   <center>
+      <AnchorPane fx:id="loginArea" prefHeight="564.0" prefWidth="370.0" styleClass="darkWhite" stylesheets="@../Style/Style.css" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="14.0" layoutY="14.0" prefHeight="55.0" prefWidth="93.0" style="-fx-font-size: 35; -fx-text-fill: #;" styleClass="text" stylesheets="@../Style/Style.css" text="Login">
+               <font>
+                  <Font name="DejaVu Serif Condensed Bold Italic" size="35.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtUsername" layoutX="46.0" layoutY="205.0" prefHeight="24.0" prefWidth="247.0" promptText="UserName" styleClass="logInTextField" stylesheets="@../Style/Style.css">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="txtPasseord" layoutX="46.0" layoutY="266.0" prefHeight="26.0" prefWidth="247.0" promptText="Password" styleClass="logInTextField" stylesheets="@../Style/Style.css">
+               <font>
+                  <Font name="DejaVu Serif Condensed Bold" size="16.0" />
+               </font>
+            </PasswordField>
+            
+            <JFXButton buttonType="RAISED" layoutX="46.0" layoutY="333.0" onAction="#Login" prefHeight="40.0" prefWidth="247.0" style="-fx-background-radius: 100px; -fx-font-size: 21;" styleClass="darkBlueColor" stylesheets="@../Style/Style.css" text="Login" textFill="WHITE" />
+            <Label fx:id="lbl3" layoutX="47.0" layoutY="395.0" prefHeight="15.0" prefWidth="72.0" style="-fx-font-size: 17px;">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

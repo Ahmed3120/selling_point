@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ButtonType?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<DialogPane fx:id="tableEditDia" headerText="do you rely want to delete" prefHeight="278.0" prefWidth="526.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserTableController">
+   <content>
+      <VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="220.0" prefWidth="420.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="35.0" prefWidth="508.0">
+               <children>
+                  <TextField fx:id="fNameTF" styleClass="signUpTextField" stylesheets="@../Style/Style.css" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="38.0" prefWidth="526.0">
+               <children>
+                  <TextField fx:id="lNameTF" styleClass="signUpTextField" stylesheets="@../Style/Style.css" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="38.0" prefWidth="526.0">
+               <children>
+                  <TextField fx:id="uNameTF" styleClass="signUpTextField" stylesheets="@../Style/Style.css" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="38.0" prefWidth="526.0">
+               <children>
+                  <TextField fx:id="emailTF" styleClass="signUpTextField" stylesheets="@../Style/Style.css" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="38.0" prefWidth="526.0">
+               <children>
+                  <TextField fx:id="passwordTF" disable="true" styleClass="signUpTextField" stylesheets="@../Style/Style.css" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </content>
+   <buttonTypes>
+      <ButtonType fx:constant="OK" />
+      <ButtonType fx:constant="CANCEL" />
+   </buttonTypes>
+   <header>
+      <HBox alignment="CENTER_RIGHT" prefHeight="38.0" prefWidth="325.0">
+         <children>
+            <Label fx:id="headerLbl" text="هنا يجب ان يضهر النص">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets right="30.0" />
+         </padding>
+      </HBox>
+   </header>
+</DialogPane>
